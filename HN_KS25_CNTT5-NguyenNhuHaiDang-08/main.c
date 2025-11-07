@@ -25,7 +25,7 @@ int main() {
 
         switch(choice) {
 
-            case 1:
+            case 1: //Nhap so luong va gia tri tung phan tu
                 printf("Nhap so luong phan tu: ");
                 scanf("%d", &n);
                 if (n <= 0 || n > 100) {
@@ -39,7 +39,7 @@ int main() {
                 }
                 break;
 
-            case 2:
+            case 2: // In ra cac gia tri trong mang
                 if (n == 0) {
                     printf("Mang rong!\n");
                     break;
@@ -50,7 +50,7 @@ int main() {
                 printf("\n");
                 break;
 
-            case 3:
+            case 3: //Tinh tong cac so nguyen to trong mang
                 if (n == 0) {
                     printf("Mang rong!\n");
                     break;
@@ -72,7 +72,7 @@ int main() {
                 }
                 break;
 
-            case 4:
+            case 4: //In ra cac phan tu o vi tri le trong mang
                 if (n == 0) {
                     printf("Mang rong!\n");
                     break;
@@ -83,7 +83,7 @@ int main() {
                 printf("\n");
                 break;
 
-            case 5:
+            case 5: // Them mot phan tu vao cuoi mang
                 if (n >= 100) {
                     printf("Mang day!\n");
                     break;
@@ -95,7 +95,7 @@ int main() {
                 printf("Da them vao cuoi mang.\n");
                 break;
 
-            case 6:
+            case 6: //Xoa phan tu tai vi tri k (nguoi dung nhap)
                 if (n == 0) {
                     printf("Mang rong!\n");
                     break;
@@ -112,7 +112,7 @@ int main() {
                 printf("Da xoa phan tu tai vi tri %d.\n", index);
                 break;
 
-            case 7:
+            case 7: //Sap xep mang theo thu tu giam dan (bubble sort)
                 if (n == 0) {
                     printf("Mang rong!\n");
                     break;
@@ -129,7 +129,7 @@ int main() {
                 printf("Mang da duoc sap xep giam dan.\n");
                 break;
 
-            case 8:
+            case 8: //Kiem tra su ton tai cua phan tu (Linear Search)
                 if (n == 0) {
                     printf("Mang rong!\n");
                     break;
@@ -148,7 +148,7 @@ int main() {
                     printf("Khong tim thay phan tu!\n");
                 break;
 
-            case 9:
+            case 9: //In ra cac phan tu xuat hien dung 1 lan trong mang
                 if (n == 0) {
                     printf("Mang rong!\n");
                     break;
@@ -166,7 +166,7 @@ int main() {
                 printf("\n");
                 break;
 
-            case 10:
+            case 10: //Cap nhat tat ca so am trong mang thanh 0
                 if (n == 0) {
                     printf("Mang rong!\n");
                     break;
@@ -190,4 +190,5 @@ int main() {
 
     return 0;
 }
+
 
